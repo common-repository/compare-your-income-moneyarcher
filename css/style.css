@@ -1,0 +1,101 @@
+.cyi_html {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    padding: 0;
+    border: 1px solid #E5E5E5;
+}
+.cyi_title {
+    text-align: center;
+    background-color: #E5E5E5;
+    padding: 10px 0;
+    font-size: 23px;
+    font-weight: 700;
+}
+.cyi_desc {
+    text-align: center;
+}
+#cyi_input_text {
+    width: 100%;
+    padding: 5px;
+    line-height: 1;
+    -webkit-backface-visibility: hidden;
+    background: #fff;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-appearance: none;
+    outline-offset: 0;
+    border-radius: 0;
+    text-align: center;
+}
+.cyi_credit {
+    text-align: center;
+    background-color: #E5E5E5;
+    font-size: 16px;
+}
+.cyi_main {
+    padding: 5px;
+}
+.cyi-names {
+    display: flex;
+    text-align: center;
+}
+.cyi-name {
+    flex: 1;
+}
+.cyi-faces {
+    display: flex;
+    justify-content: space-around;
+}
+.imgProgress-progress {
+    position: relative;
+}
+.imgProgress-img {
+    border-radius: 50%;
+    position: absolute;
+}
+.imgProgress-circle {
+    stroke-width: 32;
+}
+.imgProgress-svg {
+    transform: rotate(-90deg);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cyi-parcentages {
+    display: flex;
+    text-align: center
+}
+.cyi-parcentage {
+    flex: 1;
+    line-height: 1;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.cyi-parcentage span {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+@media only screen and (max-width: 500px) {
+    .cyi-name {
+        flex: 1;
+        display: inline-block;
+        word-break: break-word;
+        font-size: .5rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .cyi-name {
+        flex: 1;
+        display: inline-block;
+        word-break: break-word;
+        font-size: .8rem;
+    }
+}
